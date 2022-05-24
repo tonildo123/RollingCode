@@ -1,0 +1,98 @@
+
+
+.titleheader {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1.15rem;
+    background-color: #000000;
+    margin: 0.5em;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.nav-dioses {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #f1e204;
+    color: #000000;
+    border-radius: 10px;
+}
+
+/*main*/
+
+.recetas {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.subtitle {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+figure {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 50%;
+    height: 16em;
+    border-radius: 25px;
+}
+
+figcaption {
+    margin: auto;
+}
+
+.ingredientes {
+    font-weight: 300;
+}
+
+.list-ingredientes {
+    list-style: none;
+}
+
+.pasos {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.list-pasos {
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+}
+
+/**footer**/
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+
+p {
+  margin: auto;
+  font-weight: 600;
+  color: #ffffff;
+}
