@@ -1,0 +1,17 @@
+*{ /*hace referencia a todo el contenido html */
+
+        box-sizing: border-box;
+
+
+}
+
+
+main{
+
+height:  300px;
+width:   100%;
+border:  10px solid gray;   /*es grosor, solid para que no sea transparente y el color*/
+padding: 50px 20px;
+
+
+}
